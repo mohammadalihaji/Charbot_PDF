@@ -10,7 +10,8 @@ from langchain.prompts import PromptTemplate
 import os
 
 # Set OpenAI API key from secrets
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
+
 
 
 # Page configuration
@@ -131,4 +132,5 @@ if st.session_state.processComplete:
 
 # Display initial instructions
 else:
+
     st.write("👈 Upload your PDFs in the sidebar to get started!")
